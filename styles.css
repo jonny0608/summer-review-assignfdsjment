@@ -1,6 +1,10 @@
-.navbar brand {
-    
+.navbar-toggler{
+   text-align:right; 
 }
-.seasideimg { 
-   width: 30s%;
+.seasideimg{ 
+   width: 5%;
+   text-align: fixed;
+}
+.card-body {
+   
 }
