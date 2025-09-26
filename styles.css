@@ -1,15 +1,45 @@
-.navbar-toggler{
-  
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #fdf6e3;
 }
-.seasideimg{ 
-   width: 5%;
-   text-align: fixed;
+
+h1, h2 {
+    font-family: "cc-pass-the-port", sans-serif;
 }
-.forest{
-width: 75px;
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
 }
-h1{
-font-family: "cc-pass-the-port", sans-serif;
-font-weight: 400;
-font-style: normal;
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+ul.list-group {
+    margin-top: 15px;
+}
+
+.navbar {
+    font-weight: 500;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .card-img-top {
+        height: auto;
+    }
 }
